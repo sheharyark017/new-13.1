@@ -1,0 +1,1095 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!-- bootstrap css -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous" />
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- css file -->
+
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/accordion.css">
+
+    <!-- google font -->
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- font awesome -->
+
+    <script src="https://use.fontawesome.com/releases/v5.15.2/js/all.js" data-auto-replace-svg="nest"></script>
+
+    <!-- bootstrap script -->
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <!-- notification bar -->
+
+    <div class="notification-bar">
+        <div class="left-notification">
+            <a href=""><i class="fas fa-exclamation-circle"></i> Please Signin your account</a>
+        </div>
+        <div class="right-notification">
+            <a href="">Your acount</a>
+            <a href=""><i class="fas fa-user"></i> Profile</a>
+            <a href=""><i class="fas fa-cog"></i> Settings</a>
+        </div>
+    </div>
+
+    <!-- notification bar -->
+
+    <!-- navbar -->
+
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Designer</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                <form class="ms-auto d-flex">
+                    <input class="search-input form-control me-2" type="search" placeholder="Search"
+                        aria-label="Search">
+                    <button class="search-btn btn btn-outline-primary" type="submit">Search</button>
+                </form>
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="login.html">Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Signup</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- navbar -->
+
+    <!-- top slider -->
+
+    <div class="top-slider">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="slider-text col-md-6 col-12">
+                    <div class="slider-text-inner">
+                        <h1>HIRE A FREELANCER</h1>
+                        <h1>GET YOUR UI/UX DESIGN</h1>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo minima eligendi, id quis
+                            accusamus laudantium dolor? Suscipit veniam repellendus explicabo atque facere, omnis optio
+                            fuga reprehenderit velit, minima voluptatibus sint similique. Quibusdam, explicabo pariatur.
+                            Eos voluptatum rem, .</p>
+                        <div class="slider-text-btn">
+                            <a href="">See Profile</a>
+                            <a href="">Watch Video</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-image col-md-6 col-12">
+                    <img src="images/banner-img.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- end top slider -->
+
+    <!-- slider bottom btn -->
+
+    <div class="slider-bottom">
+        <div class="slider-bottom-btn">
+            <a href="" class="slider-button" data-button="1">Packages + Price</a>
+            <a href="" class="slider-button" data-button="2">Browse Project</a>
+            <a href="" class="slider-button" data-button="3">How it Works</a>
+        </div>
+
+        <div class="designer-level hover-dropdown hover-dropdown-1">
+            <div class="designer-level-cards">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="level beginner-level col-md-3">
+                            <div class="inner-level">
+                                <div class="level-top">
+                                    <p>Beginner</p>
+                                </div>
+                                <div class="level-description">
+                                    <p><em> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro,
+                                            perferendis?
+                                        </em></p>
+                                </div>
+                                <div class="level-projects">
+                                    <p>10,000 +</p>
+                                </div>
+                                <div class="level-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <div class="level-btn">
+                                    <a href="">See all</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="level intermediate-level col-md-3">
+                            <div class="inner-level">
+                                <div class="level-top">
+                                    <p>Intermediate</p>
+                                </div>
+                                <div class="level-description">
+                                    <p><em> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro,
+                                            perferendis?
+                                        </em></p>
+                                </div>
+                                <div class="level-projects">
+                                    <p>4,000 +</p>
+                                </div>
+                                <div class="level-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <div class="level-btn">
+                                    <a href="">See all</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="level expert-level col-md-3">
+                            <div class="inner-level">
+                                <div class="level-top">
+                                    <p>Expert</p>
+                                </div>
+                                <div class="level-description">
+                                    <p><em> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro,
+                                            perferendis?
+                                        </em></p>
+                                </div>
+                                <div class="level-projects">
+                                    <p>2,000 +</p>
+                                </div>
+                                <div class="level-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <div class="level-btn">
+                                    <a href="">See all</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="level guru-level col-md-3">
+                            <div class="inner-level">
+                                <div class="level-top">
+                                    <p>Guru</p>
+                                </div>
+                                <div class="level-description">
+                                    <p><em> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro,
+                                            perferendis?
+                                        </em></p>
+                                </div>
+                                <div class="level-projects">
+                                    <p>500 +</p>
+                                </div>
+                                <div class="level-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <div class="level-btn">
+                                    <a href="">See all</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="designer-level hover-dropdown hover-dropdown-2">
+            <div class="designer-level-cards">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="level beginner-level col-md-3">
+                            <div class="inner-level">
+                                <div class="level-top">
+                                    <p>Beginner</p>
+                                </div>
+                                <div class="level-description">
+                                    <p><em> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro,
+                                            perferendis?
+                                        </em></p>
+                                </div>
+                                <div class="level-projects">
+                                    <p>10,000 +</p>
+                                </div>
+                                <div class="level-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <div class="level-btn">
+                                    <a href="">See all</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="level intermediate-level col-md-3">
+                            <div class="inner-level">
+                                <div class="level-top">
+                                    <p>Intermediate</p>
+                                </div>
+                                <div class="level-description">
+                                    <p><em> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro,
+                                            perferendis?
+                                        </em></p>
+                                </div>
+                                <div class="level-projects">
+                                    <p>4,000 +</p>
+                                </div>
+                                <div class="level-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <div class="level-btn">
+                                    <a href="">See all</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="level expert-level col-md-3">
+                            <div class="inner-level">
+                                <div class="level-top">
+                                    <p>Expert</p>
+                                </div>
+                                <div class="level-description">
+                                    <p><em> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro,
+                                            perferendis?
+                                        </em></p>
+                                </div>
+                                <div class="level-projects">
+                                    <p>2,000 +</p>
+                                </div>
+                                <div class="level-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <div class="level-btn">
+                                    <a href="">See all</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="level guru-level col-md-3">
+                            <div class="inner-level">
+                                <div class="level-top">
+                                    <p>Guru</p>
+                                </div>
+                                <div class="level-description">
+                                    <p><em> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro,
+                                            perferendis?
+                                        </em></p>
+                                </div>
+                                <div class="level-projects">
+                                    <p>500 +</p>
+                                </div>
+                                <div class="level-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <div class="level-btn">
+                                    <a href="">See all</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- FAQ -->
+        <div class="blur"></div>
+        <div class="faq hover-dropdown hover-dropdown-3">
+
+            <div class="faq-top">
+                <p class="faq-head">
+                    Frequently Asked Question
+                </p>
+                <div class="underline"></div>
+            </div>
+            <div class="inner-section">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="accordion">
+                            <div class="accordion-block accordion-active">
+                                <div class="head">
+                                    <p>Can you design my custom boxes?</p>
+                                    <i class="fas fa-chevron-right"></i>
+                                </div>
+                                <div class="body">
+                                    <p>
+                                        Definitely! We have an in-house group of graphic designers who can help bring
+                                        your brand to life. As part of our
+                                        continued commitment to quality, we offer 100% free design support to all of our
+                                        customers.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="accordion-block">
+                                <div class="head">
+                                    <p>How do I place my order? What happens after I place my order?</p>
+                                    <i class="fas fa-chevron-right"></i>
+                                </div>
+                                <div class="body">
+                                    <p>Once you’re ready to get started, here’s what to expect.
+
+                                        Contact our team through live chat on our website, one of our online forms, or
+                                        give us a call to let us know the details
+                                        of your order. After we receive your project specifications, a customer service
+                                        representative will contact you with a
+                                        free quote for your review! Your customer service representative will walk you
+                                        through any questions you may have
+                                        regarding artwork, mockups, design or otherwise. Next, your order details will
+                                        be confirmed and your invoice will be
+                                        sent to confirm your order.
+
+                                        After your invoice is submitted, the next step is previewing your artwork!
+                                        Before printing your boxes, we will create
+                                        and share 2D and 3D mockups of your boxes based on your provided artwork. This
+                                        means that you will be able to see every
+                                        aspect of your design, from every angle, before moving your order into
+                                        production.
+
+                                        Once you review and approve the designs, your order will go into production and
+                                        ship to you within the stated turnaround
+                                        time for your unique needs.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="accordion-block">
+                                <div class="head">
+                                    <p>How do I get a quote for my project? How long will it take to get a quote?
+                                    </p>
+                                    <i class="fas fa-chevron-right"></i>
+                                </div>
+                                <div class="body">
+                                    <p>Contact our sales team through live chat, one of our online forms, or give us a
+                                        call to let us know the details of your
+                                        order. After we receive your project specifications, a customer service
+                                        representative will contact you with a free
+                                        quote for your review. We provide responses to all quote requests within 24
+                                        hours on business days.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="accordion-block">
+                                <div class="head">
+                                    <p>Can I print artwork on the inside and outside of the box?</p>
+                                    <i class="fas fa-chevron-right"></i>
+                                </div>
+                                <div class="body">
+                                    <p>Yes! We frequently print 2-sided boxes that include your artwork both inside and
+                                        outside of the custom boxes. We are
+                                        able to print on the outside (1-side) and the inside of boxes (2-side). There
+                                        may be additional fees for 2-sided
+                                        printing, please discuss this directly with your customer service representative
+                                        for details.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="accordion-block">
+                                <div class="head">
+                                    <p>What are your turnaround times after I place my order? When will I receive my
+                                        order?</p>
+                                    <i class="fas fa-chevron-right"></i>
+                                </div>
+                                <div class="body">
+                                    <p>While turnaround time varies depending on each customer’s unique specifications,
+                                        our standard turnaround time for custom
+                                        box orders is 8-10 business days after final design approval.
+
+                                        Bulk or rigid custom box orders may require additional production and/or
+                                        shipping time, which we will share with you
+                                        ahead of time. While we maintain an extremely high level of accuracy in our
+                                        stated turnaround times, delivery estimates
+                                        cannot be guaranteed. If your delivery date is time-sensitive, we highly
+                                        recommend that you discuss rush production and
+                                        expedited shipping with your customer service representative.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="faq-image col-lg-5 col-md-12">
+                            <img src="images/banner-1.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- end FAQ -->
+    </div>
+
+    <!-- slider bottom btn end -->
+
+    <!-- design services -->
+
+    <div class="design-services">
+        <div class="design-services-top">
+            <p>Popular Design Services</p>
+            <p>Start a design project today & recieve 60 to 100+ custom designs from competing designers.</p>
+        </div>
+        <!-- Swiper -->
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="services-image">
+                        <img src="images/services-3.jpg" alt="">
+                        <div class="overlay"></div>
+                    </div>
+                    <div class="services-card-text">
+                        <p>Logo Design</p>
+                        <p>Build your brand</p>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="services-image">
+                        <img src="images/services-1.jpg" alt="">
+                        <div class="overlay"></div>
+                    </div>
+                    <div class="services-card-text">
+                        <p>Logo Design</p>
+                        <p>Build your brand</p>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="services-image">
+                        <img src="images/services-1.jpg" alt="">
+                        <div class="overlay"></div>
+                    </div>
+                    <div class="services-card-text">
+                        <p>Logo Design</p>
+                        <p>Build your brand</p>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="services-image">
+                        <img src="images/services-1.jpg" alt="">
+                        <div class="overlay"></div>
+                    </div>
+                    <div class="services-card-text">
+                        <p>Logo Design</p>
+                        <p>Build your brand</p>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="services-image">
+                        <img src="images/services-1.jpg" alt="">
+                        <div class="overlay"></div>
+                    </div>
+                    <div class="services-card-text">
+                        <p>Logo Design</p>
+                        <p>Build your brand</p>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="services-image">
+                        <img src="images/services-1.jpg" alt="">
+                        <div class="overlay"></div>
+                    </div>
+                    <div class="services-card-text">
+                        <p>Logo Design</p>
+                        <p>Build your brand</p>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="services-image">
+                        <img src="images/services-1.jpg" alt="">
+                        <div class="overlay"></div>
+                    </div>
+                    <div class="services-card-text">
+                        <p>Logo Design</p>
+                        <p>Build your brand</p>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="services-image">
+                        <img src="images/services-1.jpg" alt="">
+                        <div class="overlay"></div>
+                    </div>
+                    <div class="services-card-text">
+                        <p>Logo Design</p>
+                        <p>Build your brand</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </div>
+
+    <!-- end designs services -->
+
+    <!-- video section -->
+
+    <div class="video-section">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="video-text col-md-6">
+                    <div class="video-text-top">
+                        <p>A whole world of freelance talent at your fingertips</p>
+                    </div>
+                    <div class="video-text-content">
+                        <p class="vh"><i class="fas fa-check-circle"></i> &nbsp; The best for every budget</p>
+                        <p class="vt">Find high-quality services at every price point. No hourly rates, just
+                            project-based pricing.
+                        </p>
+                        <p class="vh"><i class="fas fa-check-circle"></i> &nbsp; Quality work done quickly</p>
+                        <p class="vt">Find the right freelancer to begin working on your project within minutes.
+                        </p>
+                        <p class="vh"><i class="fas fa-check-circle"></i> &nbsp; Protected payments, every time</p>
+                        <p class="vt">Always know what you'll pay upfront. Your payment won't released until you approve
+                            the work.
+                        </p>
+                        <p class="vh"><i class="fas fa-check-circle"></i> &nbsp; 24/7 Support</p>
+                        <p class="vt">Questions? Our round-the-clock support team is available to help anytime,
+                            anywhere.
+                        </p>
+                    </div>
+                </div>
+                <div class="video-col col-md-6">
+                    <div class="video">
+                        <iframe width="560" height="370" src="https://www.youtube.com/embed/-NgMK7xYjZo"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- end video section -->
+
+    <!-- designer level -->
+
+    <div class="designer-level">
+        <div class="designer-level-top">
+            <p>Explore Designer</p>
+            <p>Start a design project today & recieve 60 to 100+ custom designs from competing designers.</p>
+        </div>
+        <div class="designer-level-cards">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="level beginner-level col-md-3">
+                        <div class="inner-level">
+                            <div class="level-top">
+                                <p>Beginner</p>
+                            </div>
+                            <div class="level-description">
+                                <p><em> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro, perferendis?
+                                    </em></p>
+                            </div>
+                            <div class="level-projects">
+                                <p>10,000 +</p>
+                            </div>
+                            <div class="level-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <div class="level-btn">
+                                <a href="">See all</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="level intermediate-level col-md-3">
+                        <div class="inner-level">
+                            <div class="level-top">
+                                <p>Intermediate</p>
+                            </div>
+                            <div class="level-description">
+                                <p><em> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro, perferendis?
+                                    </em></p>
+                            </div>
+                            <div class="level-projects">
+                                <p>4,000 +</p>
+                            </div>
+                            <div class="level-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <div class="level-btn">
+                                <a href="">See all</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="level expert-level col-md-3">
+                        <div class="inner-level">
+                            <div class="level-top">
+                                <p>Expert</p>
+                            </div>
+                            <div class="level-description">
+                                <p><em> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro, perferendis?
+                                    </em></p>
+                            </div>
+                            <div class="level-projects">
+                                <p>2,000 +</p>
+                            </div>
+                            <div class="level-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <div class="level-btn">
+                                <a href="">See all</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="level guru-level col-md-3">
+                        <div class="inner-level">
+                            <div class="level-top">
+                                <p>Guru</p>
+                            </div>
+                            <div class="level-description">
+                                <p><em> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro, perferendis?
+                                    </em></p>
+                            </div>
+                            <div class="level-projects">
+                                <p>500 +</p>
+                            </div>
+                            <div class="level-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <div class="level-btn">
+                                <a href="">See all</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- end designer level -->
+
+    <!-- client reviews -->
+
+    <div class="client-reviews">
+        <div class="client-reviews-top">
+            <p>Client Reviews</p>
+            <p>Start design project today & recieve 60 to 100+ custom designs from competing designers.</p>
+        </div>
+
+        <!-- review slider -->
+
+        <div class="review-slider">
+            <!-- Swiper -->
+            <div class="swiper mySwiper-2">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="quote-icon">
+                            <i class="fas fa-quote-left"></i>
+                        </div>
+                        <div class="review-text">
+                            <p><em> "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione voluptates maxime
+                                    quam elit." </em></p>
+                        </div>
+                        <div class="review-bottom">
+                        </div>
+                        <div class="review-profile">
+                            <img src="images/review.png" alt="">
+                            <p>Mian Usman</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="quote-icon">
+                            <i class="fas fa-quote-left"></i>
+                        </div>
+                        <div class="review-text">
+                            <p><em> "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione voluptates maxime
+                                    quam elit." </em></p>
+                        </div>
+                        <div class="review-bottom">
+                        </div>
+                        <div class="review-profile">
+                            <img src="images/review.png" alt="">
+                            <p>Mian Usman</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="quote-icon">
+                            <i class="fas fa-quote-left"></i>
+                        </div>
+                        <div class="review-text">
+                            <p><em> "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione voluptates maxime
+                                    quam elit." </em></p>
+                        </div>
+                        <div class="review-bottom">
+                        </div>
+                        <div class="review-profile">
+                            <img src="images/review.png" alt="">
+                            <p>Mian Usman</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="quote-icon">
+                            <i class="fas fa-quote-left"></i>
+                        </div>
+                        <div class="review-text">
+                            <p><em> "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione voluptates maxime
+                                    quam elit." </em></p>
+                        </div>
+                        <div class="review-bottom">
+                        </div>
+                        <div class="review-profile">
+                            <img src="images/review.png" alt="">
+                            <p>Mian Usman</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="quote-icon">
+                            <i class="fas fa-quote-left"></i>
+                        </div>
+                        <div class="review-text">
+                            <p><em> "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione voluptates maxime
+                                    quam elit." </em></p>
+                        </div>
+                        <div class="review-bottom">
+                        </div>
+                        <div class="review-profile">
+                            <img src="images/review.png" alt="">
+                            <p>Mian Usman</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="quote-icon">
+                            <i class="fas fa-quote-left"></i>
+                        </div>
+                        <div class="review-text">
+                            <p><em> "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione voluptates maxime
+                                    quam elit." </em></p>
+                        </div>
+                        <div class="review-bottom">
+                        </div>
+                        <div class="review-profile">
+                            <img src="images/review.png" alt="">
+                            <p>Mian Usman</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="quote-icon">
+                            <i class="fas fa-quote-left"></i>
+                        </div>
+                        <div class="review-text">
+                            <p><em> "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione voluptates maxime
+                                    quam elit." </em></p>
+                        </div>
+                        <div class="review-bottom">
+                        </div>
+                        <div class="review-profile">
+                            <img src="images/review.png" alt="">
+                            <p>Mian Usman</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="quote-icon">
+                            <i class="fas fa-quote-left"></i>
+                        </div>
+                        <div class="review-text">
+                            <p><em> "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione voluptates maxime
+                                    quam elit." </em></p>
+                        </div>
+                        <div class="review-bottom">
+                        </div>
+                        <div class="review-profile">
+                            <img src="images/review.png" alt="">
+                            <p>Mian Usman</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="quote-icon">
+                            <i class="fas fa-quote-left"></i>
+                        </div>
+                        <div class="review-text">
+                            <p><em> "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione voluptates maxime
+                                    quam elit." </em></p>
+                        </div>
+                        <div class="review-bottom">
+                        </div>
+                        <div class="review-profile">
+                            <img src="images/review.png" alt="">
+                            <p>Mian Usman</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- end client reviews -->
+
+    <!-- freelancer designs -->
+
+    <div class="freelancer-designs">
+        <div class="freelancer-designs-top">
+            <p>Freelancer Design</p>
+            <p>Start design project today & recieve 60 to 100+ custom designs from competing designers.</p>
+        </div>
+        <div class="design-cards">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="design-card col-md-3 col-12">
+                        <div class="inner-design-card">
+                            <div class="design-card-image">
+                                <img src="images/services-2.jpg" alt="">
+                            </div>
+                            <div class="design-card-text">
+                                <div class="container-fluid">
+                                    <div class="row">
+                                        <div class="design-image col-3">
+                                            <img src="images/review.png" alt="">
+                                        </div>
+                                        <div class="design-name col-9">
+                                            <p>Logo Design</p>
+                                            <p>Mian Usman</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="design-card col-md-3 col-12">
+                        <div class="inner-design-card">
+                            <div class="design-card-image">
+                                <img src="images/services-2.jpg" alt="">
+                            </div>
+                            <div class="design-card-text">
+                                <div class="container-fluid">
+                                    <div class="row">
+                                        <div class="design-image col-3">
+                                            <img src="images/review.png" alt="">
+                                        </div>
+                                        <div class="design-name col-9">
+                                            <p>Logo Design</p>
+                                            <p>Mian Usman</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="design-card col-md-3 col-12">
+                        <div class="inner-design-card">
+                            <div class="design-card-image">
+                                <img src="images/services-2.jpg" alt="">
+                            </div>
+                            <div class="design-card-text">
+                                <div class="container-fluid">
+                                    <div class="row">
+                                        <div class="design-image col-3">
+                                            <img src="images/review.png" alt="">
+                                        </div>
+                                        <div class="design-name col-9">
+                                            <p>Logo Design</p>
+                                            <p>Mian Usman</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="design-card col-md-3 col-12">
+                        <div class="inner-design-card">
+                            <div class="design-card-image">
+                                <img src="images/services-2.jpg" alt="">
+                            </div>
+                            <div class="design-card-text">
+                                <div class="container-fluid">
+                                    <div class="row">
+                                        <div class="design-image col-3">
+                                            <img src="images/review.png" alt="">
+                                        </div>
+                                        <div class="design-name col-9">
+                                            <p>Logo Design</p>
+                                            <p>Mian Usman</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="freelancers-designs-btn">
+            <a href="">See More...</a>
+        </div>
+    </div>
+
+    <!-- end freelancer design -->
+
+    <!-- footer -->
+    <div class="footer-top-line">
+
+    </div>
+    <footer id="footer">
+        <div class="inner-footer">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="footer-col footer-links">
+                        <h3>QUICK LINKS</h3>
+                        <hr>
+                        <a href="">Home</a>
+                        <a href="">About Us</a>
+                        <a href="">Products</a>
+                        <a href="">Services</a>
+                        <a href="">Get in touch</a>
+                    </div>
+                    <div class="footer-col footer-links">
+                        <h3>About Us</h3>
+                        <hr>
+                        <p class="about-p">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum rem
+                            explicabo est mollitia,
+                            pariatur animi quaerat laboriosam. Iure, nulla delectus?</p>
+                    </div>
+                    <div class="footer-col footer-links">
+                        <h3>services</h3>
+                        <hr>
+                        <div class="row">
+                            <div class="links-col">
+                                <a href="#">Service</a>
+                                <a href="#">Service</a>
+                                <a href="#">Service</a>
+                                <a href="#">Service</a>
+                                <a href="#">Service</a>
+                                <a href="#">Service</a>
+
+                            </div>
+                            <div class="links-col">
+                                <a href="#">Service</a>
+                                <a href="#">Service</a>
+                                <a href="#">Service</a>
+                                <a href="#">Service</a>
+                                <a href="#">Service</a>
+                                <a href="#">Service</a>
+
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                    <div class="footer-col footer-contact">
+                        <h3>CONTACT US</h3>
+                        <hr>
+                        <p class="web-name">Designer Portal</p>
+                        <div class="container-fluid footer-about">
+                            <div class="row">
+                                <div class="footer-icon-col">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                </div>
+                                <div class="footer-detail-col">
+                                    <p>1509, Burlington Towers, Business Bay, Dubai</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="footer-icon-col">
+                                    <i class="fas fa-phone"></i>
+                                </div>
+                                <div class="footer-detail-col">
+                                    <p>+971 55 6997715</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="footer-icon-col">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                                <div class="footer-detail-col">
+                                    <p>info@inkhornsolutions.com</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="icons">
+                            <a class="icon" href=""><i class="fab fa-facebook-f"></i></a>
+                            <a class="icon" href=""><i class="fab fa-twitter"></i></a>
+                            <a class="icon" href=""><i class="fab fa-instagram"></i></a>
+                            <a class="icon" href=""><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="credits">
+                <p>Copyright <strong>© Printmeall</strong> 2021 , All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- end footer -->
+
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/accordion.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!-- bootstrap css -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous" />
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- css file -->
+
+    <link rel="stylesheet" href="css/profile.css" />
+
+    <!-- google font -->
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- font awesome -->
+
+    <script src="https://use.fontawesome.com/releases/v5.15.2/js/all.js" data-auto-replace-svg="nest"></script>
+
+    <!-- bootstrap script -->
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <!-- notification bar -->
+
+    <div class="notification-bar">
+        <div class="left-notification">
+            <a href=""><i class="fas fa-exclamation-circle"></i> Please Signin your account</a>
+        </div>
+        <div class="right-notification">
+            <a href="">Your acount</a>
+            <a href=""><i class="fas fa-user"></i> Profile</a>
+            <a href=""><i class="fas fa-cog"></i> Settings</a>
+        </div>
+    </div>
+
+    <!-- notification bar -->
+
+    <!-- navbar -->
+
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Designer</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                <form class="ms-auto d-flex">
+                    <input class="search-input form-control me-2" type="search" placeholder="Search"
+                        aria-label="Search">
+                    <button class="search-btn btn btn-outline-primary" type="submit">Search</button>
+                </form>
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="login.html">Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Signup</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- end navbar -->
+
+    <div class="profile-page">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="outer-menu col-lg-4 col-12">
+                    <div class="profile-menu">
+                        <div class="profile-menu-top">
+                            <img src="images/review.png" alt="">
+                            <div class="profile-menu-name">
+                                <p>Mian Usman</p>
+                                <p>Web and Graphic Designer</p>
+                            </div>
+                        </div>
+                        <div class="uderline"></div>
+                        <div class="profile-menu-links">
+                            <a href=""><i class="fas fa-user"></i> Mian Usman</a>
+                            <a href=""><i class="fas fa-bell"></i> Notifications</a>
+                            <a href=""><i class="fas fa-comment-dots"></i> Chat Room</a>
+                            <a href=""><i class="fas fa-images"></i> View Portfolio</a>
+                            <a href=""><i class="fas fa-cog"></i> Account Settings</a>
+                            <a href=""><i class="fas fa-phone"></i> +92 301 2345678</a>
+                            <a href=""><i class="fas fa-map-marker-alt"></i> H46, Street 2, Gulberg 3</a>
+                            <a href=""><i class="fas fa-lock"></i> Privacy & Policy</a>
+                            <a href=""><i class="fas fa-power-off"></i> Logout</a>
+                        </div>
+                        <div class="edit-button">
+                            <a href="">Edit Profile</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="outer-details col-lg-8 col-12">
+                    <div class="profile-details">
+                        <div class="profile-menu-top">
+                            <img src="images/review.png" alt="">
+                            <div class="profile-menu-name">
+                                <p>Freelancer Profile Details</p>
+                                <p>Web and Graphic Designer</p>
+                            </div>
+                        </div>
+                        <div class="uderline"></div>
+                        <div class="slider-top-line">
+                            <p>I will create pro custom twitch emotes, sub badges</p>
+                        </div>
+                        <!-- Swiper -->
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="slider-col col-lg-6 col-12">
+                                    <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff"
+                                        class="swiper-container mySwiper2">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide">
+                                                <img src="images/logo1.jpg" />
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <img src="images/logo2.jpg" />
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <img src="images/logo3.jpg" />
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <img src="images/logo4.jpg" />
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <img src="images/logo5.jpg" />
+                                            </div>
+                                        </div>
+                                        <div class="swiper-button-next"></div>
+                                        <div class="swiper-button-prev"></div>
+                                    </div>
+                                    <div thumbsSlider="" class="swiper-container mySwiper">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide">
+                                                <img src="images/logo1.jpg" />
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <img src="images/logo2.jpg" />
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <img src="images/logo3.jpg" />
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <img src="images/logo4.jpg" />
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <img src="images/logo5.jpg" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Swiper JS -->
+                                </div>
+                                <div class="service-col col-lg-6 col-12">
+                                    <div class="service-top-detail">
+                                        <div class="service-menu-top">
+                                            <img src="images/review.png" alt="">
+                                            <div class="service-menu-name">
+                                                <p>Mian Usman</p>
+                                                <p>Web and Graphic Designer</p>
+                                            </div>
+                                        </div>
+                                        <div class="freelancer-rating">
+                                            <p><span>4.9</span> (12+)</p>
+                                        </div>
+                                    </div>
+                                    <div class="service-details">
+                                        <div class="service-price">
+                                            <p>SIMPLE BUT PERFECT</p>
+                                            <P>$10</P>
+                                        </div>
+                                        <div class="service-description">
+                                            <p>Logo + Brand Style Guide (font and color recomendation mood board)</p>
+                                        </div>
+                                        <div class="service-time">
+                                            <p><i class="far fa-clock"></i> &nbsp; 3Days Delivery</p>
+                                            <p><i class="fas fa-redo"></i> &nbsp; 2Revisions</p>
+                                        </div>
+                                        <div class="features">
+                                            <p><i class="fas fa-check-circle"></i> &nbsp; 1 Initial concept included</p>
+                                            <p><i class="fas fa-check-circle"></i> &nbsp; Source file</p>
+                                            <p><i class="fas fa-check-circle"></i> &nbsp; logo transparency</p>
+                                            <p><i class="fas fa-check-circle"></i> &nbsp; high resolution</p>
+                                            <p><i class="fas fa-check-circle"></i> &nbsp; vector file</p>
+                                            <p><i class="fas fa-check-circle"></i> &nbsp; PSD mockups</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="edit-button">
+                            <a href="">Edit Profile</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- freelancer information -->
+
+    <div class="information-page">
+        <div class="outer-information">
+            <div class="freelancer-information">
+                <div class="freelancer-information-top">
+                    <p>Freelancer Profile Detail</p>
+                </div>
+                <div class="all-details">
+                    <div class="contaner-fluid">
+                        <div class="row">
+                            <div class="col-md-6 col-12">
+                                <div class="profession">
+                                    <p class="head"><i class="fas fa-chevron-right"></i> Professional Title</p>
+                                    <p class="information"> <i class="fas fa-chevron-right"></i> Graphic Designer
+                                    </p>
+                                </div>
+                                <div class="skills">
+                                    <p class="head"><i class="fas fa-chevron-right"></i> Skills</p>
+                                    <p class="information"> <i class="fas fa-chevron-right"></i> Photoshop</p>
+                                    <div class="progress">
+                                        <div class="progress-bar progress-bar-striped progress-bar-animated"
+                                            role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"
+                                            style="width: 75%"></div>
+                                    </div>
+                                    <p class="information"> <i class="fas fa-chevron-right"></i> Illustrator</p>
+                                    <div class="progress">
+                                        <div class="progress-bar progress-bar-striped progress-bar-animated"
+                                            role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"
+                                            style="width: 65%"></div>
+                                    </div>
+                                    <p class="information"> <i class="fas fa-chevron-right"></i> After Effect</p>
+                                    <div class="progress">
+                                        <div class="progress-bar progress-bar-striped progress-bar-animated"
+                                            role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"
+                                            style="width: 83%"></div>
+                                    </div>
+                                    <p class="information"> <i class="fas fa-chevron-right"></i> Final Cut Pro</p>
+                                    <div class="progress">
+                                        <div class="progress-bar progress-bar-striped progress-bar-animated"
+                                            role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"
+                                            style="width: 60%"></div>
+                                    </div>
+                                </div>
+                                <div class="profile-summary">
+                                    <p class="head"><i class="fas fa-chevron-right"></i> Profile Summary</p>
+                                    <p class="information"> Lorem ipsum dolor, sit amet consectetur adipisicing
+                                        elit.
+                                        Tempora corporis quisquam assumenda ratione ab error cum doloremque vel
+                                        reiciendis voluptatem.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-12">
+                                <div class="experience">
+                                    <p class="head"><i class="fas fa-chevron-right"></i> Experience</p>
+                                    <p class="sub-head"><i class="fas fa-chevron-right"></i> Company:</p>
+                                    <div class="exprerience-detail">
+                                        <p class="information"> <i class="fas fa-chevron-right"></i> Google</p>
+                                        <p class="information"> 2010-2013</p>
+                                    </div>
+
+                                    <div class="exprerience-detail">
+                                        <p class="sub-head"><i class="fas fa-chevron-right"></i> Project:</p>
+                                        <p class="information"> <i class="fas fa-chevron-right"></i> www.google.com
+                                        </p>
+                                    </div>
+                                    <p class="sub-head"><i class="fas fa-chevron-right"></i> Company:</p>
+                                    <div class="exprerience-detail">
+                                        <p class="information"> <i class="fas fa-chevron-right"></i> Google</p>
+                                        <p class="information"> 2010-2013</p>
+                                    </div>
+
+                                    <div class="exprerience-detail">
+                                        <p class="sub-head"><i class="fas fa-chevron-right"></i> Project:</p>
+                                        <p class="information"> <i class="fas fa-chevron-right"></i> www.google.com
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="education">
+                                    <p class="head"><i class="fas fa-chevron-right"></i> Education</p>
+                                    <div class="exprerience-detail">
+                                        <p class="sub-head"><i class="fas fa-chevron-right"></i> Matric:</p>
+                                        <p class="information"> <i class="fas fa-chevron-right"></i> 2008-2010</p>
+                                    </div>
+                                    <p class="information"> <i class="fas fa-chevron-right"></i> Allied School</p>
+                                    <div class="exprerience-detail">
+                                        <p class="sub-head"><i class="fas fa-chevron-right"></i> Inter:</p>
+                                        <p class="information"> <i class="fas fa-chevron-right"></i> 2010-2012</p>
+                                    </div>
+                                    <p class="information"> <i class="fas fa-chevron-right"></i> Punjab Group of
+                                        College
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- end freelancer information -->
+
+    <!-- freelancer reviews -->
+
+    <div class="review-page">
+        <div class="outer-review">
+            <div class="freelancer-review">
+                <div class="freelancer-review-top">
+                    <p>Reviews</p>
+                </div>
+                <div class="all-review">
+                    <div class="review">
+                        <div class="review-pic">
+                            <img src="images/review.png" alt="">
+                        </div>
+                        <div class="review-text">
+                            <div class="reviewer">
+                                <p>Mian Usman</p>
+                                <p> &nbsp; <i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                        class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                </p>
+                                <p> &nbsp; - 2 months ago</p>
+                            </div>
+                            <div class="comment">
+                                <p>Wonderful for the price! fast and professional service.</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor ducimus quo quis
+                                    amet
+                                    minima
+                                    blanditiis reiciendis eveniet est id iure. reiciendis eveniet est id iure.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="review-underline"></div>
+                    <div class="review">
+                        <div class="review-pic">
+                            <img src="images/review.png" alt="">
+                        </div>
+                        <div class="review-text">
+                            <div class="reviewer">
+                                <p>Mian Usman</p>
+                                <p> &nbsp; <i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                        class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                </p>
+                                <p> &nbsp; - 2 months ago</p>
+                            </div>
+                            <div class="comment">
+                                <p>Wonderful for the price! fast and professional service.</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor ducimus quo quis
+                                    amet
+                                    minima
+                                    blanditiis reiciendis eveniet est id iure. reiciendis eveniet est id iure.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="review-underline"></div>
+                    <div class="review">
+                        <div class="review-pic">
+                            <img src="images/review.png" alt="">
+                        </div>
+                        <div class="review-text">
+                            <div class="reviewer">
+                                <p>Mian Usman</p>
+                                <p> &nbsp; <i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                        class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                </p>
+                                <p> &nbsp; - 2 months ago</p>
+                            </div>
+                            <div class="comment">
+                                <p>Wonderful for the price! fast and professional service.</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor ducimus quo quis
+                                    amet
+                                    minima
+                                    blanditiis reiciendis eveniet est id iure. reiciendis eveniet est id iure.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="review-underline"></div>
+                    <div class="review">
+                        <div class="review-pic">
+                            <img src="images/review.png" alt="">
+                        </div>
+                        <div class="review-text">
+                            <div class="reviewer">
+                                <p>Mian Usman</p>
+                                <p> &nbsp; <i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                        class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                </p>
+                                <p> &nbsp; - 2 months ago</p>
+                            </div>
+                            <div class="comment">
+                                <p>Wonderful for the price! fast and professional service.</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor ducimus quo quis
+                                    amet
+                                    minima
+                                    blanditiis reiciendis eveniet est id iure. reiciendis eveniet est id iure.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="review-underline"></div>
+                    <div class="review">
+                        <div class="review-pic">
+                            <img src="images/review.png" alt="">
+                        </div>
+                        <div class="review-text">
+                            <div class="reviewer">
+                                <p>Mian Usman</p>
+                                <p> &nbsp; <i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                        class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                </p>
+                                <p> &nbsp; - 2 months ago</p>
+                            </div>
+                            <div class="comment">
+                                <p>Wonderful for the price! fast and professional service.</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor ducimus quo quis
+                                    amet
+                                    minima
+                                    blanditiis reiciendis eveniet est id iure. reiciendis eveniet est id iure.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="review-underline"></div>
+                    <div class="review">
+                        <div class="review-pic">
+                            <img src="images/review.png" alt="">
+                        </div>
+                        <div class="review-text">
+                            <div class="reviewer">
+                                <p>Mian Usman</p>
+                                <p> &nbsp; <i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                        class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                </p>
+                                <p> &nbsp; - 2 months ago</p>
+                            </div>
+                            <div class="comment">
+                                <p>Wonderful for the price! fast and professional service.</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor ducimus quo quis
+                                    amet
+                                    minima
+                                    blanditiis reiciendis eveniet est id iure. reiciendis eveniet est id iure.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="review-underline"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- end freelancer reviews -->
+
+    <!-- footer -->
+    <div class="footer-top-line">
+
+    </div>
+    <footer id="footer">
+        <div class="inner-footer">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="footer-col footer-links">
+                        <h3>QUICK LINKS</h3>
+                        <hr>
+                        <a href="">Home</a>
+                        <a href="">About Us</a>
+                        <a href="">Products</a>
+                        <a href="">Services</a>
+                        <a href="">Get in touch</a>
+                    </div>
+                    <div class="footer-col footer-links">
+                        <h3>About Us</h3>
+                        <hr>
+                        <p class="about-p">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum rem
+                            explicabo est mollitia,
+                            pariatur animi quaerat laboriosam. Iure, nulla delectus?</p>
+                    </div>
+                    <div class="footer-col footer-links">
+                        <h3>services</h3>
+                        <hr>
+                        <div class="row">
+                            <div class="links-col">
+                                <a href="#">Service</a>
+                                <a href="#">Service</a>
+                                <a href="#">Service</a>
+                                <a href="#">Service</a>
+                                <a href="#">Service</a>
+                                <a href="#">Service</a>
+
+                            </div>
+                            <div class="links-col">
+                                <a href="#">Service</a>
+                                <a href="#">Service</a>
+                                <a href="#">Service</a>
+                                <a href="#">Service</a>
+                                <a href="#">Service</a>
+                                <a href="#">Service</a>
+
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                    <div class="footer-col footer-contact">
+                        <h3>CONTACT US</h3>
+                        <hr>
+                        <p class="web-name">Designer Portal</p>
+                        <div class="container-fluid footer-about">
+                            <div class="row">
+                                <div class="footer-icon-col">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                </div>
+                                <div class="footer-detail-col">
+                                    <p>1509, Burlington Towers, Business Bay, Dubai</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="footer-icon-col">
+                                    <i class="fas fa-phone"></i>
+                                </div>
+                                <div class="footer-detail-col">
+                                    <p>+971 55 6997715</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="footer-icon-col">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                                <div class="footer-detail-col">
+                                    <p>info@inkhornsolutions.com</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="icons">
+                            <a class="icon" href=""><i class="fab fa-facebook-f"></i></a>
+                            <a class="icon" href=""><i class="fab fa-twitter"></i></a>
+                            <a class="icon" href=""><i class="fab fa-instagram"></i></a>
+                            <a class="icon" href=""><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="credits">
+                <p>Copyright <strong>© Printmeall</strong> 2021 , All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- end footer -->
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="js/profile.js"></script>
+
+</body>
+
+</html>

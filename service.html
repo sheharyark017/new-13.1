@@ -1,0 +1,712 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!-- bootstrap css -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous" />
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- css file -->
+
+    <link rel="stylesheet" href="css/service.css">
+    <!-- google font -->
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- font awesome -->
+
+    <script src="https://use.fontawesome.com/releases/v5.15.2/js/all.js" data-auto-replace-svg="nest"></script>
+
+    <!-- bootstrap script -->
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- notification bar -->
+
+    <div class="notification-bar">
+        <div class="left-notification">
+            <a href=""><i class="fas fa-exclamation-circle"></i> Please Signin your account</a>
+        </div>
+        <div class="right-notification">
+            <a href="">Your acount</a>
+            <a href=""><i class="fas fa-user"></i> Profile</a>
+            <a href=""><i class="fas fa-cog"></i> Settings</a>
+        </div>
+    </div>
+
+    <!-- notification bar -->
+
+    <!-- navbar -->
+
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Designer</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                <form class="ms-auto d-flex">
+                    <input class="search-input form-control me-2" type="search" placeholder="Search"
+                        aria-label="Search">
+                    <button class="search-btn btn btn-outline-primary" type="submit">Search</button>
+                </form>
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Signup</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- navbar -->
+
+    <!-- top section -->
+
+    <div class="top-section">
+        <h1>Logo Design</h1>
+        <p>Start a design project today & recieve 60 to 100+ custom designs from competing designers. <a href=""> &nbsp;
+                <i class="fas fa-play-circle"></i> How Designer works.</a></p>
+    </div>
+
+    <!-- end top section -->
+
+    <!-- dropdowns -->
+
+    <div class="dropdowns-menu">
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Freelancer Level
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                <li><a class="dropdown-item" href="#">Level 1 &nbsp; &nbsp; (1000)</a></li>
+                <li><a class="dropdown-item" href="#">Level 2 &nbsp; &nbsp; (800)</a></li>
+                <li><a class="dropdown-item" href="#">Level 3 &nbsp; &nbsp; (500)</a></li>
+                <li><a class="dropdown-item" href="#">Level 4 &nbsp; &nbsp; (200)</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- end dropdowns -->
+
+    <!-- gig cards -->
+
+    <div class="gig-cards">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="gig col-lg-3 col-sm-6">
+                    <div class="inner-gig">
+                        <div class="card-image">
+                            <img src="images/logo1.jpg" alt="">
+                        </div>
+                        <div class="name-details">
+                            <div class="details-image">
+                                <img src="images/review.png" alt="">
+                            </div>
+                            <div class="details-name">
+                                <p>Semidesigner21</p>
+                                <p>Level 2 Seller</p>
+                            </div>
+                        </div>
+                        <div class="gig-description">
+                            <p>I will create awesome mascot for your twitch, esports, sports Logo</p>
+                        </div>
+                        <div class="gig-ratings">
+                            <p> <span> <i class="fas fa-star"></i> 4.8 </span> &nbsp; (146)</p>
+                        </div>
+                        <div class="gig-price">
+                            <i class="fas fa-heart"></i>
+                            <p><span>Starting at Rs : </span>2,000</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="gig col-lg-3 col-sm-6">
+                    <div class="inner-gig">
+                        <div class="card-image">
+                            <img src="images/logo2.jpg" alt="">
+                        </div>
+                        <div class="name-details">
+                            <div class="details-image">
+                                <img src="images/review.png" alt="">
+                            </div>
+                            <div class="details-name">
+                                <p>Semidesigner21</p>
+                                <p>Level 2 Seller</p>
+                            </div>
+                        </div>
+                        <div class="gig-description">
+                            <p>I will create awesome mascot for your twitch, esports, sports Logo</p>
+                        </div>
+                        <div class="gig-ratings">
+                            <p> <span> <i class="fas fa-star"></i> 4.8 </span> &nbsp; (146)</p>
+                        </div>
+                        <div class="gig-price">
+                            <i class="fas fa-heart"></i>
+                            <p><span>Starting at Rs : </span>2,000</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="gig col-lg-3 col-sm-6">
+                    <div class="inner-gig">
+                        <div class="card-image">
+                            <img src="images/logo3.jpg" alt="">
+                        </div>
+                        <div class="name-details">
+                            <div class="details-image">
+                                <img src="images/review.png" alt="">
+                            </div>
+                            <div class="details-name">
+                                <p>Semidesigner21</p>
+                                <p>Level 2 Seller</p>
+                            </div>
+                        </div>
+                        <div class="gig-description">
+                            <p>I will create awesome mascot for your twitch, esports, sports Logo</p>
+                        </div>
+                        <div class="gig-ratings">
+                            <p> <span> <i class="fas fa-star"></i> 4.8 </span> &nbsp; (146)</p>
+                        </div>
+                        <div class="gig-price">
+                            <i class="fas fa-heart"></i>
+                            <p><span>Starting at Rs : </span>2,000</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="gig col-lg-3 col-sm-6">
+                    <div class="inner-gig">
+                        <div class="card-image">
+                            <img src="images/logo4.jpg" alt="">
+                        </div>
+                        <div class="name-details">
+                            <div class="details-image">
+                                <img src="images/review.png" alt="">
+                            </div>
+                            <div class="details-name">
+                                <p>Semidesigner21</p>
+                                <p>Level 2 Seller</p>
+                            </div>
+                        </div>
+                        <div class="gig-description">
+                            <p>I will create awesome mascot for your twitch, esports, sports Logo</p>
+                        </div>
+                        <div class="gig-ratings">
+                            <p> <span> <i class="fas fa-star"></i> 4.8 </span> &nbsp; (146)</p>
+                        </div>
+                        <div class="gig-price">
+                            <i class="fas fa-heart"></i>
+                            <p><span>Starting at Rs : </span>2,000</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="gig col-lg-3 col-sm-6">
+                    <div class="inner-gig">
+                        <div class="card-image">
+                            <img src="images/logo5.jpg" alt="">
+                        </div>
+                        <div class="name-details">
+                            <div class="details-image">
+                                <img src="images/review.png" alt="">
+                            </div>
+                            <div class="details-name">
+                                <p>Semidesigner21</p>
+                                <p>Level 2 Seller</p>
+                            </div>
+                        </div>
+                        <div class="gig-description">
+                            <p>I will create awesome mascot for your twitch, esports, sports Logo</p>
+                        </div>
+                        <div class="gig-ratings">
+                            <p> <span> <i class="fas fa-star"></i> 4.8 </span> &nbsp; (146)</p>
+                        </div>
+                        <div class="gig-price">
+                            <i class="fas fa-heart"></i>
+                            <p><span>Starting at Rs : </span>2,000</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="gig col-lg-3 col-sm-6">
+                    <div class="inner-gig">
+                        <div class="card-image">
+                            <img src="images/logo1.jpg" alt="">
+                        </div>
+                        <div class="name-details">
+                            <div class="details-image">
+                                <img src="images/review.png" alt="">
+                            </div>
+                            <div class="details-name">
+                                <p>Semidesigner21</p>
+                                <p>Level 2 Seller</p>
+                            </div>
+                        </div>
+                        <div class="gig-description">
+                            <p>I will create awesome mascot for your twitch, esports, sports Logo</p>
+                        </div>
+                        <div class="gig-ratings">
+                            <p> <span> <i class="fas fa-star"></i> 4.8 </span> &nbsp; (146)</p>
+                        </div>
+                        <div class="gig-price">
+                            <i class="fas fa-heart"></i>
+                            <p><span>Starting at Rs : </span>2,000</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="gig col-lg-3 col-sm-6">
+                    <div class="inner-gig">
+                        <div class="card-image">
+                            <img src="images/logo2.jpg" alt="">
+                        </div>
+                        <div class="name-details">
+                            <div class="details-image">
+                                <img src="images/review.png" alt="">
+                            </div>
+                            <div class="details-name">
+                                <p>Semidesigner21</p>
+                                <p>Level 2 Seller</p>
+                            </div>
+                        </div>
+                        <div class="gig-description">
+                            <p>I will create awesome mascot for your twitch, esports, sports Logo</p>
+                        </div>
+                        <div class="gig-ratings">
+                            <p> <span> <i class="fas fa-star"></i> 4.8 </span> &nbsp; (146)</p>
+                        </div>
+                        <div class="gig-price">
+                            <i class="fas fa-heart"></i>
+                            <p><span>Starting at Rs : </span>2,000</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="gig col-lg-3 col-sm-6">
+                    <div class="inner-gig">
+                        <div class="card-image">
+                            <img src="images/logo3.jpg" alt="">
+                        </div>
+                        <div class="name-details">
+                            <div class="details-image">
+                                <img src="images/review.png" alt="">
+                            </div>
+                            <div class="details-name">
+                                <p>Semidesigner21</p>
+                                <p>Level 2 Seller</p>
+                            </div>
+                        </div>
+                        <div class="gig-description">
+                            <p>I will create awesome mascot for your twitch, esports, sports Logo</p>
+                        </div>
+                        <div class="gig-ratings">
+                            <p> <span> <i class="fas fa-star"></i> 4.8 </span> &nbsp; (146)</p>
+                        </div>
+                        <div class="gig-price">
+                            <i class="fas fa-heart"></i>
+                            <p><span>Starting at Rs : </span>2,000</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="gig col-lg-3 col-sm-6">
+                    <div class="inner-gig">
+                        <div class="card-image">
+                            <img src="images/logo4.jpg" alt="">
+                        </div>
+                        <div class="name-details">
+                            <div class="details-image">
+                                <img src="images/review.png" alt="">
+                            </div>
+                            <div class="details-name">
+                                <p>Semidesigner21</p>
+                                <p>Level 2 Seller</p>
+                            </div>
+                        </div>
+                        <div class="gig-description">
+                            <p>I will create awesome mascot for your twitch, esports, sports Logo</p>
+                        </div>
+                        <div class="gig-ratings">
+                            <p> <span> <i class="fas fa-star"></i> 4.8 </span> &nbsp; (146)</p>
+                        </div>
+                        <div class="gig-price">
+                            <i class="fas fa-heart"></i>
+                            <p><span>Starting at Rs : </span>2,000</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="gig col-lg-3 col-sm-6">
+                    <div class="inner-gig">
+                        <div class="card-image">
+                            <img src="images/logo5.jpg" alt="">
+                        </div>
+                        <div class="name-details">
+                            <div class="details-image">
+                                <img src="images/review.png" alt="">
+                            </div>
+                            <div class="details-name">
+                                <p>Semidesigner21</p>
+                                <p>Level 2 Seller</p>
+                            </div>
+                        </div>
+                        <div class="gig-description">
+                            <p>I will create awesome mascot for your twitch, esports, sports Logo</p>
+                        </div>
+                        <div class="gig-ratings">
+                            <p> <span> <i class="fas fa-star"></i> 4.8 </span> &nbsp; (146)</p>
+                        </div>
+                        <div class="gig-price">
+                            <i class="fas fa-heart"></i>
+                            <p><span>Starting at Rs : </span>2,000</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="gig col-lg-3 col-sm-6">
+                    <div class="inner-gig">
+                        <div class="card-image">
+                            <img src="images/logo1.jpg" alt="">
+                        </div>
+                        <div class="name-details">
+                            <div class="details-image">
+                                <img src="images/review.png" alt="">
+                            </div>
+                            <div class="details-name">
+                                <p>Semidesigner21</p>
+                                <p>Level 2 Seller</p>
+                            </div>
+                        </div>
+                        <div class="gig-description">
+                            <p>I will create awesome mascot for your twitch, esports, sports Logo</p>
+                        </div>
+                        <div class="gig-ratings">
+                            <p> <span> <i class="fas fa-star"></i> 4.8 </span> &nbsp; (146)</p>
+                        </div>
+                        <div class="gig-price">
+                            <i class="fas fa-heart"></i>
+                            <p><span>Starting at Rs : </span>2,000</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="gig col-lg-3 col-sm-6">
+                    <div class="inner-gig">
+                        <div class="card-image">
+                            <img src="images/logo2.jpg" alt="">
+                        </div>
+                        <div class="name-details">
+                            <div class="details-image">
+                                <img src="images/review.png" alt="">
+                            </div>
+                            <div class="details-name">
+                                <p>Semidesigner21</p>
+                                <p>Level 2 Seller</p>
+                            </div>
+                        </div>
+                        <div class="gig-description">
+                            <p>I will create awesome mascot for your twitch, esports, sports Logo</p>
+                        </div>
+                        <div class="gig-ratings">
+                            <p> <span> <i class="fas fa-star"></i> 4.8 </span> &nbsp; (146)</p>
+                        </div>
+                        <div class="gig-price">
+                            <i class="fas fa-heart"></i>
+                            <p><span>Starting at Rs : </span>2,000</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="gig col-lg-3 col-sm-6">
+                    <div class="inner-gig">
+                        <div class="card-image">
+                            <img src="images/logo3.jpg" alt="">
+                        </div>
+                        <div class="name-details">
+                            <div class="details-image">
+                                <img src="images/review.png" alt="">
+                            </div>
+                            <div class="details-name">
+                                <p>Semidesigner21</p>
+                                <p>Level 2 Seller</p>
+                            </div>
+                        </div>
+                        <div class="gig-description">
+                            <p>I will create awesome mascot for your twitch, esports, sports Logo</p>
+                        </div>
+                        <div class="gig-ratings">
+                            <p> <span> <i class="fas fa-star"></i> 4.8 </span> &nbsp; (146)</p>
+                        </div>
+                        <div class="gig-price">
+                            <i class="fas fa-heart"></i>
+                            <p><span>Starting at Rs : </span>2,000</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="gig col-lg-3 col-sm-6">
+                    <div class="inner-gig">
+                        <div class="card-image">
+                            <img src="images/logo4.jpg" alt="">
+                        </div>
+                        <div class="name-details">
+                            <div class="details-image">
+                                <img src="images/review.png" alt="">
+                            </div>
+                            <div class="details-name">
+                                <p>Semidesigner21</p>
+                                <p>Level 2 Seller</p>
+                            </div>
+                        </div>
+                        <div class="gig-description">
+                            <p>I will create awesome mascot for your twitch, esports, sports Logo</p>
+                        </div>
+                        <div class="gig-ratings">
+                            <p> <span> <i class="fas fa-star"></i> 4.8 </span> &nbsp; (146)</p>
+                        </div>
+                        <div class="gig-price">
+                            <i class="fas fa-heart"></i>
+                            <p><span>Starting at Rs : </span>2,000</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="gig col-lg-3 col-sm-6">
+                    <div class="inner-gig">
+                        <div class="card-image">
+                            <img src="images/logo5.jpg" alt="">
+                        </div>
+                        <div class="name-details">
+                            <div class="details-image">
+                                <img src="images/review.png" alt="">
+                            </div>
+                            <div class="details-name">
+                                <p>Semidesigner21</p>
+                                <p>Level 2 Seller</p>
+                            </div>
+                        </div>
+                        <div class="gig-description">
+                            <p>I will create awesome mascot for your twitch, esports, sports Logo</p>
+                        </div>
+                        <div class="gig-ratings">
+                            <p> <span> <i class="fas fa-star"></i> 4.8 </span> &nbsp; (146)</p>
+                        </div>
+                        <div class="gig-price">
+                            <i class="fas fa-heart"></i>
+                            <p><span>Starting at Rs : </span>2,000</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- end gig cards -->
+
+    <!-- faq -->
+
+    <div class="faq">
+        <div class="faq-top">
+            <p>Logo Design FAQs</p>
+            <p>Start a design project today & recieve 60 to 100+ custom designs from competing designers.</p>
+        </div>
+        <div class="questions">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-6 col-12">
+                        <div class="question">
+                            <p class="q">Can you design my custom boxes?</p>
+                            <p class="a">Definitely! We have an in-house group of graphic designers who can help
+                                bring
+                                your brand
+                                to life. As part of our continued commitment to quality, we offer 100% free design
+                                support to all of our customers.</p>
+                            <p class="q">How do I get a quote for my project? How long will it take to get a quote?
+                            </p>
+                            <p class="a">Contact our sales team through live chat, one of our online forms, or give
+                                us a
+                                call to let us know the details of your order. After we receive your project
+                                specifications, a customer service representative will contact you with a free quote
+                                for
+                                your review. We provide responses to all quote requests within 24 hours on business
+                                days.</p>
+                            <p class="q">What are your turnaround times after I place my order? When will I receive
+                                my
+                                order?</p>
+                            <p class="a">While turnaround time varies depending on each customer’s unique
+                                specifications, our standard turnaround time for custom box orders is 8-10 business
+                                days
+                                after final design approval. <br><br>
+
+                                Bulk or rigid custom box orders may require additional production and/or shipping
+                                time,
+                                which we will share with you ahead of time. While we maintain an extremely high
+                                level of
+                                accuracy in our stated turnaround times, delivery estimates cannot be guaranteed. If
+                                your delivery date is time-sensitive, we highly recommend that you discuss rush
+                                production and expedited shipping with your customer service representative.</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-12">
+                        <div class="question">
+                            <p class="q">How do I place my order? What happens after I place my order?</p>
+                            <p class="a">Once you’re ready to get started, here’s what to expect. <br><br>
+
+                                Contact our team through live chat on our website, one of our online forms, or give
+                                us a
+                                call to let us know the details of your order. After we receive your project
+                                specifications, a customer service representative will contact you with a free quote
+                                for
+                                your review! Your customer service representative will walk you through any
+                                questions
+                                you may have regarding artwork, mockups, design or otherwise. Next, your order
+                                details
+                                will be confirmed and your invoice will be sent to confirm your order. <br><br>
+
+                                After your invoice is submitted, the next step is previewing your artwork! Before
+                                printing your boxes, we will create and share 2D and 3D mockups of your boxes based
+                                on
+                                your provided artwork. This means that you will be able to see every aspect of your
+                                design, from every angle, before moving your order into production. <br><br>
+
+                                Once you review and approve the designs, your order will go into production and ship
+                                to
+                                you within the stated turnaround time for your unique needs.</p>
+                            <p class="q">Can I print artwork on the inside and outside of the box?</p>
+                            <p class="a">Yes! We frequently print 2-sided boxes that include your artwork both
+                                inside
+                                and outside of the custom boxes. We are able to print on the outside (1-side) and
+                                the
+                                inside of boxes (2-side). There may be additional fees for 2-sided printing, please
+                                discuss this directly with your customer service representative for details.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- end faq -->
+
+    <!-- footer -->
+    <div class="footer-top-line">
+
+    </div>
+    <footer id="footer">
+        <div class="inner-footer">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="footer-col footer-links">
+                        <h3>QUICK LINKS</h3>
+                        <hr>
+                        <a href="">Home</a>
+                        <a href="">About Us</a>
+                        <a href="">Products</a>
+                        <a href="">Services</a>
+                        <a href="">Get in touch</a>
+                    </div>
+                    <div class="footer-col footer-links">
+                        <h3>ABOUT US</h3>
+                        <hr>
+                        <p class="about-p">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum rem
+                            explicabo est mollitia,
+                            pariatur animi quaerat laboriosam. Iure, nulla delectus?</p>
+                    </div>
+                    <div class="footer-col footer-links">
+                        <h3>SERVICES</h3>
+                        <hr>
+                        <div class="row">
+                            <div class="links-col">
+                                <a href="#">Service</a>
+                                <a href="#">Service</a>
+                                <a href="#">Service</a>
+                                <a href="#">Service</a>
+                                <a href="#">Service</a>
+                                <a href="#">Service</a>
+
+                            </div>
+                            <div class="links-col">
+                                <a href="#">Service</a>
+                                <a href="#">Service</a>
+                                <a href="#">Service</a>
+                                <a href="#">Service</a>
+                                <a href="#">Service</a>
+                                <a href="#">Service</a>
+
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                    <div class="footer-col footer-contact">
+                        <h3>CONTACT US</h3>
+                        <hr>
+                        <p class="web-name">Designer Portal</p>
+                        <div class="container-fluid footer-about">
+                            <div class="row">
+                                <div class="footer-icon-col">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                </div>
+                                <div class="footer-detail-col">
+                                    <p>1509, Burlington Towers, Business Bay, Dubai</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="footer-icon-col">
+                                    <i class="fas fa-phone"></i>
+                                </div>
+                                <div class="footer-detail-col">
+                                    <p>+971 55 6997715</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="footer-icon-col">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                                <div class="footer-detail-col">
+                                    <p>info@inkhornsolutions.com</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="icons">
+                            <a class="icon" href=""><i class="fab fa-facebook-f"></i></a>
+                            <a class="icon" href=""><i class="fab fa-twitter"></i></a>
+                            <a class="icon" href=""><i class="fab fa-instagram"></i></a>
+                            <a class="icon" href=""><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="credits">
+                <p>Copyright <strong>© Printmeall</strong> 2021 , All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- end footer -->
+
+</body>
+
+</html>
