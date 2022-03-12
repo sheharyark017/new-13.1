@@ -1025,6 +1025,9 @@ footer i {
   /* end video section */
 
   /* designer level */
+  .hover-dropdown {
+    display: none;
+  }
 
   .designer-level {
     padding: 50px 20px;
